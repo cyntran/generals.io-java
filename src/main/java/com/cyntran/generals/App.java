@@ -35,6 +35,7 @@ public class App {
 		    		  try {
 						if (obj.get("text").equals("you suck")) {
 							  socket.emit("chat_message", args[0], "your mum sucks XD");
+							  System.out.println("zzzzzz: " + args[0]);
 						  }
 						  System.out.println(obj.get("text"));
 					} catch (JSONException e) {
